@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e8ac90e-5657-4bdc-a400-4f8663c40be0" name="Default Changelist" comment="Add matrix data structure">
-      <change afterPath="$PROJECT_DIR$/dataStructure/ds_dequeue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/ds_doublelinkedlist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DataScienceLearningPath.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataScienceLearningPath.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4e8ac90e-5657-4bdc-a400-4f8663c40be0" name="Default Changelist" comment="Add Dequeue and Doubly linked list">
+      <change afterPath="$PROJECT_DIR$/dataStructure/ds_binary_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/ds_heap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/ds_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/ds_queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/ds_stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/ds_stack.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +23,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataStructure/ds_doublelinkedlist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-696">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="360">
+              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataStructure/ds_binary_tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="729">
+              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataStructure/ds_heap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -61,6 +75,8 @@
         <option value="$PROJECT_DIR$/dataStructure/ds_queue.py" />
         <option value="$PROJECT_DIR$/dataStructure/ds_dequeue.py" />
         <option value="$PROJECT_DIR$/dataStructure/ds_doublelinkedlist.py" />
+        <option value="$PROJECT_DIR$/dataStructure/ds_binary_tree.py" />
+        <option value="$PROJECT_DIR$/dataStructure/ds_heap.py" />
       </list>
     </option>
   </component>
@@ -116,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ds_doublelinkedlist">
+  <component name="RunManager" selected="Python.ds_heap">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="DataScienceLearningPath" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,28 +155,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="advanceLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataScienceLearningPath" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanceLinkedList.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ds_array" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataScienceLearningPath" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,6 +169,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataStructure/ds_array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ds_binary_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataScienceLearningPath" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataStructure" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataStructure/ds_binary_tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,22 +234,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ds_heap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataScienceLearningPath" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataStructure" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataStructure/ds_heap.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -245,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ds_heap" />
+        <item itemvalue="Python.ds_binary_tree" />
         <item itemvalue="Python.ds_doublelinkedlist" />
         <item itemvalue="Python.ds_dequeue" />
         <item itemvalue="Python.ds_array" />
-        <item itemvalue="Python.matrix" />
-        <item itemvalue="Python.advanceLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -274,14 +284,21 @@
       <workItem from="1563228715785" duration="792000" />
       <workItem from="1563250992607" duration="384000" />
     </task>
+    <task id="LOCAL-00001" summary="Add Dequeue and Doubly linked list">
+      <created>1563688806678</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563688806678</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17817000" />
+    <option name="totallyTimeSpent" value="20530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.21444201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -311,6 +328,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Dequeue and Doubly linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Dequeue and Doubly linked list" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DataScienceLearningPath$advanceLinkedList.coverage" NAME="advanceLinkedList Coverage Results" MODIFIED="1563109094301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -362,8 +383,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dataStructure/ds_doublelinkedlist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-696">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="360">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/ds_binary_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/ds_heap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
