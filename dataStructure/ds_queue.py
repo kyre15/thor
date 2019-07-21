@@ -1,3 +1,5 @@
+#This data structure feature is First in First Out (FIFO)
+
 class Queue:
 
     def __init__(self):

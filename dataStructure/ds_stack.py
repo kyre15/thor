@@ -1,3 +1,5 @@
+#This data structure feature is Last in First out (LIFO)
+
 class Stack:
 
     def __init__(self):
